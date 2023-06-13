@@ -17,7 +17,7 @@ By understanding the role of Node.js as a runtime environment and its relationsh
 
 
 
-Why Node.js?
+### Why Node.js?
 
 
 Node.js incorporates non-blocking I/O and event-driven architecture to maintain its lightweight and efficient nature when handling data-intensive real-time applications that span across distributed devices.
@@ -32,7 +32,7 @@ By incorporating non-blocking I/O, event-driven architecture, and leveraging the
 
 
 
-Installing Node.js
+### Installing Node.js
 
 We can install node in Mac or Linux using brew or apt-get to install Node, but we’re also going to want to keep Node up to date.
 Some projects may use a different version of Node than your own, this can become a hassle to deal with, so what we would suggest doing is installing Node Version Manager(nvm).
@@ -53,7 +53,8 @@ nvm use <node version>
 Remember to refer to the official Documentation and specific instructions for your operating system when installing Node.js or any related tools. 
 
 
-Our First code
+### Our First code
+      
 Now we show you how to run and script with Node.js. Heres’s and step-by-step explanation:
 - Create a folder (‘mkdir folderName’) and inside create a new file called index.js (‘touch index.js’). 
 - Then add the following code:  console.log(“Hello from node”)
@@ -68,7 +69,7 @@ We can write any JavaScript code we like in Node, but we must keep in mind there
 
 
 
-Npm and Modules
+### Npm and Modules
 
 Npm (Node Package Manager) is a package manager specifically designed for Node.js. It allows you and other developers to easily share JavaScript code by using a command line tool. With npm, you can access and download external packages that are part of one of the largest ecosystems in the software development community. As of now, there are over 35,000 npm modules available for you to utilize in your projects.
 Modules are bundles of reusable code that are packaged with any dependencies they rely on. By using modules, you can organize and compartmentalize your code, making it easier to maintain, share, and reuse. The benefits of using modules are numerous, and we will discuss them further shortly.
@@ -83,7 +84,7 @@ By utilizing npm and its vast collection of modules, you can streamline your dev
 
 
 
-Installing Packages
+### Installing Packages
 
 
 In order to install packages in our programs we must define our manifest file.
