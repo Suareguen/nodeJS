@@ -3,7 +3,7 @@
 ## Introduction
 
 
-** What’s Node.js?
+** What’s Node.js? **
 
 Node.js is an open-source JavaScript runtime environment developed by Ryan Dahl. It allows developers to run JavaScript code on the server-side, enabling the creation of server applications. Traditionally, JavaScript was mainly used within web browsers, with each browser having its own JavaScript runtime. However, Node.js changed this by introducing a runtime environment for JavaScript on servers.
 In the past, when JavaScript was limited to browsers, it was not possible to directly run JavaScript code on computers. JavaScript, along with other programming languages like Python, Ruby, or Java, needs a runtime environment to execute. 
@@ -18,7 +18,7 @@ By understanding the role of Node.js as a runtime environment and its relationsh
 
 
 
-** Why Node.js?
+** Why Node.js? **
 
 
 Node.js incorporates non-blocking I/O and event-driven architecture to maintain its lightweight and efficient nature when handling data-intensive real-time applications that span across distributed devices.
