@@ -6,7 +6,8 @@
 **What’s Node.js?**
 
 Node.js is an open-source JavaScript runtime environment developed by Ryan Dahl. It allows developers to run JavaScript code on the server-side, enabling the creation of server applications. Traditionally, JavaScript was mainly used within web browsers, with each browser having its own JavaScript runtime. However, Node.js changed this by introducing a runtime environment for JavaScript on servers.
- file:///home/reboot/nodejs.png
+![nodejs](https://github.com/Suareguen/nodeJS/assets/103899316/aa57ef8a-f275-451d-9e4a-c72551ba809e)
+
 
 
 In the past, when JavaScript was limited to browsers, it was not possible to directly run JavaScript code on computers. JavaScript, along with other programming languages like Python, Ruby, or Java, needs a runtime environment to execute. 
