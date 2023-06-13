@@ -82,7 +82,7 @@ I'm here to guide you through the installation process of Node.js using Node Ver
 - Open your terminal ( Ctrl + Alt + T ).
 - Install NVM: in the terminal, run the following command: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 - Close and reopen the terminal.
-- Verify installation: IN the terminal type nvm ***--version*** and press Enter, if a version number is displayed it means NVM is succesfully installed.
+- Verify installation: IN the terminal type '***nvm --version***' and press Enter, if a version number is displayed it means NVM is succesfully installed.
 - Installing Node.js with NVM:  In the terminal type and run the following code:
 nvm install node
 - Verify Node.js Installation: In the terminal type and run ‘node –version’ and you should see installed the Node.js version displayed.
