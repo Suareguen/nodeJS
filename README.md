@@ -118,7 +118,6 @@ Fortunately, package managers like npm come to the rescue. npm helps address thi
       
 Furthermore, npm encourages good software development principles and code sharing. Rather than reinventing the wheel for every project, npm enables you to leverage existing packages and modules created by other developers. These packages cover a wide range of functionalities, such as coloring text in the terminal, handling command line input, retrieving Chuck Norris jokes, and much more. This approach saves time, promotes code reuse, and fosters collaboration within the development community.
       
-      
 The fact that npm is already included when you install Node.js is excellent news. This means that if you have Node.js installed, you automatically have npm available as well. You can verify this by running the command npm --version in the terminal. If you receive a version number in response, it confirms that npm is successfully installed and ready to use.
 By utilizing npm and its vast collection of modules, you can streamline your development process, leverage existing code, and adhere to good software development practices. This not only saves time and effort but also contributes to the growth and efficiency of the entire software development community.
 
@@ -137,7 +136,7 @@ Package.json defines all of our projects packages and dependencies.
 How to create a package.json?
 
 Here’s a guide step-by-step about how to create it:
--Create a directory and go in: mkdir project – cd project
+- Create a directory and go in: mkdir project – cd project
 - Type and run the following command in your terminal: npm init -y. Npm init create a file called package.json ( manifest file ) that specifies all of the modules your project will use and ‘-y’ install default values for our package.json.
 And now we have a package.json ready to install packages.
 
