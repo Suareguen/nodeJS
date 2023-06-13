@@ -137,7 +137,7 @@ Package.json defines all of our projects packages and dependencies.
 How to create a package.json?
 
 Here’s a guide step-by-step about how to create it:
- -Create a directory and go in: mkdir project – cd project
+-Create a directory and go in: mkdir project – cd project
 - Type and run the following command in your terminal: npm init -y. Npm init create a file called package.json ( manifest file ) that specifies all of the modules your project will use and ‘-y’ install default values for our package.json.
 And now we have a package.json ready to install packages.
 
