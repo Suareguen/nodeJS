@@ -1,5 +1,4 @@
 # nodeJS
-
 Node JS
 
 Introduction
@@ -40,8 +39,8 @@ We can install node in Mac or Linux using brew or apt-get to install Node, but w
 Some projects may use a different version of Node than your own, this can become a hassle to deal with, so what we would suggest doing is installing Node Version Manager(nvm).
 NVM allows you to pick which version of Node to use, install new versions, and more.
 I'm here to guide you through the installation process of Node.js using Node Version Manager (NVM). NVM is a helpful tool that allows you to manage multiple Node.js versions on your machine. Here's a step-by-step explanation:
-- Open your terminal ( Ctrl + Alt + T ).
-- Install NVM: in the terminal, run the following command: 
+      - Open your terminal ( Ctrl + Alt + T ).
+      - Install NVM: in the terminal, run the following command: 
       curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 - Close and reopen the terminal.
 - Verify installation: IN the terminal type ‘nvm –version’ and press Enter, if a version number is displayed it means NVM is succesfully installed.
@@ -104,4 +103,28 @@ To install modules we use the command npm install or npm i.
 
 Npm install –save chalk
 
-This 
+This goes to the npm servers and grabs a package called “chalk” and’--save’ adds this as a dependency to our package.json. In new versions of npm ‘--save’ it’s done by default and it isn’t necessary to use.
+
+When you run the npm install command, it retrieves the necessary modules or packages from the npm registry and installs them in your project. As a result, it creates a folder called node_modules within your project directory. This folder serves as a storage location for all the code associated with the installed modules.
+After installing a module, you can make use of it in your code. To do so, you need to require the module by using the require keyword in Node.js. This allows you to import the module's functionality into your own codebase. You typically assign the imported module to a variable, allowing you to access its features and functions.
+Once you have required the module and assigned it to a variable, you can utilize that variable to call upon the module's exposed functions, methods, or properties. These functions are often referred to as the module's "API" (Application Programming Interface). The module's API provides a set of predefined functions or behaviors that you can utilize within your own code.
+By calling the variable and accessing its attached functions, you can leverage the capabilities provided by the module. This enables you to extend your own code's functionality by incorporating the features and utilities offered by the module.
+In summary, the process involves installing a module using npm install, which creates a node_modules folder to store the module's code. You then require the module in your code, assigning it to a variable. This allows you to access and utilize the module's API, including its functions, methods, or properties, by calling upon the variable and invoking the desired functionality.
+Understanding how to install and utilize modules is crucial for leveraging the extensive ecosystem of npm packages and enhancing your own code with ready-made solutions and features provided by the community.
+
+If you want all the functionality Chalk makes you can visit the documentation page.
+Normally all packages have a documentation and a nice package wold have a good documentation for people to learn how to use it.
+Chalk is one of many npm packages and you feel free to prove many of them and practice.
+When you commit your updates never commit node_modules folder to git, it will make your repository a lot larger, remember create a .gitignore file to ensure it.
+
+When you clone a repository or takes a project with a package.json inside, you only need run the following command in the folder directory: 
+npm install 
+In a Node.js project, the package.json file serves as a manifest or configuration file that defines various aspects of your project, including its dependencies. When you run npm install, npm reads the package.json file and installs all the specified dependencies listed within it. This ensures that your project has all the necessary packages and modules to run successfully.
+Now, imagine you have a project that relies on several external dependencies, and you want to share your code with others. If you commit only the package.json file to your version control system (such as Git), you provide others with a way to recreate the exact set of dependencies you have installed in your project.
+By sharing only the package.json file, other users can clone your project repository and, with a simple command, restore the node_modules folder and install all the necessary dependencies. This command, typically npm install, reads the package.json file and retrieves the specified packages from the npm registry, recreating the node_modules folder with the required modules.
+This approach has several advantages:
+    1. Reduced repository size: By excluding the node_modules folder from version control, you avoid bloating your repository with large amounts of code that can be easily obtained through package installation.
+    2. Consistency and reproducibility: By relying on the package.json file, all users can recreate the same development environment, ensuring consistent behavior across different machines. This is particularly important in collaborative projects or when deploying code to different environments.
+    3. Simplified updates and maintenance: By relying on the package.json file, users can easily update and manage dependencies by modifying the version ranges specified in the file. Running npm install again will install the latest compatible versions of the dependencies.
+It's worth noting that while sharing only the package.json file is convenient for managing dependencies, it assumes that the project adheres to good practices in terms of dependency management. It's essential to ensure that your package.json file accurately reflects the necessary dependencies and version constraints to maintain the stability and compatibility of your project.
+In conclusion, by committing only the package.json file to your repository, you allow other users to recreate the node_modules folder and install the required dependencies easily. This approach promotes consistency, reproducibility, and simplified dependency management across different environments and collaborators.
