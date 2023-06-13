@@ -18,7 +18,7 @@ By understanding the role of Node.js as a runtime environment and its relationsh
 
 
 
-** Why Node.js? **
+**Why Node.js?**
 
 
 Node.js incorporates non-blocking I/O and event-driven architecture to maintain its lightweight and efficient nature when handling data-intensive real-time applications that span across distributed devices.
