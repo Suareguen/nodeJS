@@ -40,8 +40,8 @@ We can install node in Mac or Linux using brew or apt-get to install Node, but w
 Some projects may use a different version of Node than your own, this can become a hassle to deal with, so what we would suggest doing is installing Node Version Manager(nvm).
 NVM allows you to pick which version of Node to use, install new versions, and more.
 I'm here to guide you through the installation process of Node.js using Node Version Manager (NVM). NVM is a helpful tool that allows you to manage multiple Node.js versions on your machine. Here's a step-by-step explanation:
-      - Open your terminal ( Ctrl + Alt + T ).
-      - Install NVM: in the terminal, run the following command: 
+- Open your terminal ( Ctrl + Alt + T ).
+- Install NVM: in the terminal, run the following command: 
       curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 - Close and reopen the terminal.
 - Verify installation: IN the terminal type ‘nvm –version’ and press Enter, if a version number is displayed it means NVM is succesfully installed.
