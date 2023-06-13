@@ -186,9 +186,9 @@ Now, imagine you have a project that relies on several external dependencies, an
       
 By sharing only the package.json file, other users can clone your project repository and, with a simple command, restore the node_modules folder and install all the necessary dependencies. This command, typically npm install, reads the package.json file and retrieves the specified packages from the npm registry, recreating the node_modules folder with the required modules.
 This approach has several advantages:
-    1. Reduced repository size: By excluding the node_modules folder from version control, you avoid bloating your repository with large amounts of code that can be easily obtained through package installation.
-    2. Consistency and reproducibility: By relying on the package.json file, all users can recreate the same development environment, ensuring consistent behavior across different machines. This is particularly important in collaborative projects or when deploying code to different environments.
-    3. Simplified updates and maintenance: By relying on the package.json file, users can easily update and manage dependencies by modifying the version ranges specified in the file. Running npm install again will install the latest compatible versions of the dependencies.
+- Reduced repository size: By excluding the node_modules folder from version control, you avoid bloating your repository with large amounts of code that can be easily obtained through package installation.
+- Consistency and reproducibility: By relying on the package.json file, all users can recreate the same development environment, ensuring consistent behavior across different machines. This is particularly important in collaborative projects or when deploying code to different environments.
+- Simplified updates and maintenance: By relying on the package.json file, users can easily update and manage dependencies by modifying the version ranges specified in the file. Running npm install again will install the latest compatible versions of the dependencies.
       
       
 
